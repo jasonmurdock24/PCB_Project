@@ -414,8 +414,12 @@
       "Root"
     ],
     [
-      "aaeb00bd-126a-4971-92bb-70c636983fa5",
-      "Microcontroller connections"
+      "5d432ce9-b304-44e3-a978-8be91b79b0ed",
+      "USB"
+    ],
+    [
+      "4ee1802f-ee07-4d8e-aeda-b2298c2416b2",
+      "MCU"
     ]
   ],
   "text_variables": {}
