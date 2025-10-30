@@ -95,6 +95,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 38.1 113.03)
+		(size 57.15 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ff60e6b-b878-403e-9faa-7ea3b902ee0b")
+		(property "Sheetname" "LCD"
+			(at 38.1 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 38.1 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "final_project"
+				(path "/bcf3418e-986f-42d9-beb5-94c6e2a384e4"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
