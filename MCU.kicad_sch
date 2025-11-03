@@ -6016,16 +6016,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 21.59) (xy 69.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c4a7c7c-98ad-4651-8cac-67160b2a90f8")
-	)
-	(wire
-		(pts
 			(xy 200.66 118.11) (xy 190.5 118.11)
 		)
 		(stroke
@@ -6133,6 +6123,16 @@
 			(type default)
 		)
 		(uuid "79be71d7-813e-4e45-80ec-07e5c2a0e657")
+	)
+	(wire
+		(pts
+			(xy 63.5 21.59) (xy 63.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae49178-a825-4747-859e-8d9b45692e50")
 	)
 	(wire
 		(pts
@@ -8727,72 +8727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 69.85 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "575f46e2-6506-489a-a2b3-6fe865f30123")
-		(property "Reference" "#PWR020"
-			(at 69.85 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 69.85 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 69.85 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a523af81-edad-4c60-b77c-e7d1d439368e")
-		)
-		(instances
-			(project ""
-				(path "/bcf3418e-986f-42d9-beb5-94c6e2a384e4/4ee1802f-ee07-4d8e-aeda-b2298c2416b2"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "D6R90_F2(push-button):D6R90F2LFS")
 		(at 245.11 95.25 0)
 		(unit 1)
@@ -9992,7 +9926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 205.74 133.35 0)
 			(effects
 				(font
@@ -10206,7 +10140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 205.74 118.11 0)
 			(effects
 				(font
@@ -10857,7 +10791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 115.57 80.01 0)
 			(effects
 				(font
@@ -11362,6 +11296,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9787578-14f6-4bc7-82c1-f42a58a7c89c")
+		(property "Reference" "#PWR020"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ecfe045-c17a-42e0-bfd6-a69e9d62193e")
+		)
+		(instances
+			(project "final_project"
+				(path "/bcf3418e-986f-42d9-beb5-94c6e2a384e4/4ee1802f-ee07-4d8e-aeda-b2298c2416b2"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 205.74 123.19 0)
 		(unit 1)
@@ -11389,7 +11389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 205.74 123.19 0)
 			(effects
 				(font
@@ -11456,7 +11456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 205.74 128.27 0)
 			(effects
 				(font
